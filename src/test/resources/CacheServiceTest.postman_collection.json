@@ -1,0 +1,86 @@
+{
+	"variables": [],
+	"info": {
+		"name": "CacheServiceTest",
+		"_postman_id": "1b8681c3-9365-0c21-03b8-1b4f0f7ffd02",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/cache",
+			"request": {
+				"url": "http://localhost:8080/cache",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/cache/myapp:User:jbloggs/userInfo",
+			"request": {
+				"url": "http://localhost:8080/cache/myapp:User:jbloggs/userInfo",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "SomeUserInfoForJBloggs"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/cache/myapp:User:jsmith/userInfo",
+			"request": {
+				"url": "http://localhost:8080/cache/myapp:User:jsmith/userInfo",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "SomeMoreUserInfoForJSmith"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/cache/myapp:User:jbloggs/userInfo2",
+			"request": {
+				"url": "http://localhost:8080/cache/myapp:User:jbloggs/userInfo2",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "SomeUserInfo2ForJBloggs"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/cache/myapp:User:jbloggs",
+			"request": {
+				"url": "http://localhost:8080/cache/myapp:User:jbloggs",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/cache/myapp:User:jbloggs",
+			"request": {
+				"url": "http://localhost:8080/cache/myapp:User:jbloggs",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
